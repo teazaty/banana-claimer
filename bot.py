@@ -435,7 +435,6 @@ class Banana:
                 except Exception as e:
                     self.log(f"{red}Get access token error!!!")
 
-            base.log(f"{base.yellow}All tasks completed!")
             break  # Exit the loop after completing all tasks
 
 

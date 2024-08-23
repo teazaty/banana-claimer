@@ -435,10 +435,8 @@ class Banana:
                 except Exception as e:
                     self.log(f"{red}Get access token error!!!")
 
-            print()
-            wait_time = 60 * 60
-            self.log(f"{yellow}Wait for {int(wait_time/60)} minutes!")
-            time.sleep(wait_time)
+            base.log(f"{base.yellow}All tasks completed!")
+            break  # Exit the loop after completing all tasks
 
 
 if __name__ == "__main__":
